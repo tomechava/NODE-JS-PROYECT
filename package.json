@@ -1,0 +1,28 @@
+{
+  "name": "node-js-proyect",
+  "version": "1.0.0",
+  "description": "Complete Node.js Guide ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomechava/NODE-JS-PROYECT.git"
+  },
+  "author": "Tomas Echavarria Gil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomechava/NODE-JS-PROYECT/issues"
+  },
+  "homepage": "https://github.com/tomechava/NODE-JS-PROYECT#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2"
+  }
+}
